@@ -6,7 +6,7 @@
 
 ## 兼容性
 
-仅在A6300上测试正常，理论上适用于所有底层为Android 4.1.2 (SDK16)可安装APK程序的索尼相机，不适用于底层为Android 2的设备，因为他们的SD卡挂载目录与Android 4的设备不同。可以使用[OpenMemories-Tweak](https://github.com/ma1co/OpenMemories-Tweak)查看Android底层版本。
+仅在A6300上测试正常，理论上适用于所有底层为Android 4.1.2 (SDK16)可安装APK程序的索尼相机，不适用于底层为Android 2的设备，因为他们的SD卡挂载目录与Android 4的设备不同。可以使用[OpenMemories-Tweak](https://github.com/ma1co/OpenMemories-Tweak)查看设备的Android底层版本。
 
 ## 安装方法
 
