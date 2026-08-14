@@ -1,0 +1,24 @@
+# ============ 编译产物（构建输出，不提交）============
+.gradle/
+build/
+*.apk
+*.spk
+/captures
+.externalNativeBuild
+
+# ============ 机器相关 / IDE 配置 ============
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Gradle 包装器（自动下载 Gradle，属构建工具）
+gradlew
+gradlew.bat
+gradle/
+
+# 生成 Sony 桩的脚本
+build-stubs.sh
+
+# 预编译的 Sony 桩（可由 stubs-src 重新生成）
+**/stubs.jar
