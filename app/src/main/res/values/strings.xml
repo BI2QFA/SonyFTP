@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FTP传输</string>
+    <string name="hint_keys">[MENU键] 退出</string>
+    <string name="qr_caption">扫描QR Code以连接</string>
+    <string name="qr_desc">WiFi热点连接二维码</string>
+</resources>

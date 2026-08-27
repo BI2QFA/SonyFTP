@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "bi2qfa.sony.ftp"
+        minSdkVersion 10
+        targetSdkVersion 10
+        versionCode 1
+        versionName "2.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+
+    // 不把 Sony 私有 API 桩打进 APK（运行时由相机系统提供真实实现）
+    packagingOptions {
+        exclude 'com/sony/**'
+    }
+}
+
+dependencies {
+    // Sony API 编译桩（只在编译期用，不进 APK）
+    compileOnly files('libs/stubs.jar')
+}
